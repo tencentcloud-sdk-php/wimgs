@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/wimgs",
+    "description": "TencentCloudApi php sdk wimgs",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/wimgs",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/wimgs",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "3.0.248"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
